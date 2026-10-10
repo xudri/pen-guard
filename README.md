@@ -54,7 +54,6 @@ Everything is registered through Obsidian's `registerDomEvent`, so it's removed 
 2. Run **BRAT: Add a beta plugin for testing** and paste this repo's URL.
 3. Enable **Pen Guard** in Community plugins.
 
-(BRAT needs a GitHub release that includes `main.js` and `manifest.json` as assets.)
 
 ## Settings
 
@@ -84,11 +83,6 @@ Everything is registered through Obsidian's `registerDomEvent`, so it's removed 
 - It works by intercepting touch events. It can't change how Obsidian handles gestures internally, and if a future Obsidian version moves gesture handling to pointer events, this approach may need updating.
 - The ideal fix belongs in Obsidian itself (treating stylus input like the iPad does). If you're affected, please also report it to Obsidian.
 
-## Reporting the Obsidian bug
-
-A good report to the Obsidian forum (Bug reports → Mobile) or Discord:
-
-> On Android with an S Pen, edge swipes open the sidebars and the pull-down gesture opens the command palette while writing, sometimes only halfway. On iPad with an Apple Pencil the same vault behaves correctly.
 
 ## Development
 
@@ -103,7 +97,6 @@ pen-guard/
 └── LICENSE
 ```
 
-To release: bump `version` in `manifest.json` and `versions.json`, create a GitHub release with the same tag (no `v` prefix), and attach `main.js` and `manifest.json`.
 
 ## License
 
