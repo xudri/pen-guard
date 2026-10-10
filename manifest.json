@@ -1,0 +1,10 @@
+{
+  "id": "pen-guard",
+  "name": "Pen Guard",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Stops S Pen strokes (and optionally palm touches) from triggering Obsidian's swipe gestures on Android tablets.",
+  "author": "xudri",
+  "authorUrl": "https://github.com/xudri",
+  "isDesktopOnly": false
+}
